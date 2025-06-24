@@ -15,3 +15,9 @@ variable "availability_zone" {
   type        = string
   default     = "us-east-1a"
 }
+
+variable "apollo_sg_name" {
+  description = "Name for the Apollo security group"
+  type        = string
+  default     = "apollo-sg"
+}
